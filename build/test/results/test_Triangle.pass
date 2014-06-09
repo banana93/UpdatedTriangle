@@ -1,0 +1,67 @@
+---
+:source:
+  :path: test
+  :file: test_Triangle.c
+:successes:
+- :test: test_triangle_scalene
+  :line: 20
+  :message: ''
+- :test: test_triangle_equilateral
+  :line: 31
+  :message: ''
+- :test: test_triangle_isoceles
+  :line: 42
+  :message: ''
+- :test: test_triangle_invalid_zero
+  :line: 54
+  :message: ''
+- :test: test_triangle_negative_value
+  :line: 66
+  :message: ''
+- :test: test_triangle_sides_value
+  :line: 78
+  :message: ''
+- :test: test_anyGivenLength_side1_given_0_side2_given_2_side3_given_1_should_return_0
+  :line: 85
+  :message: ''
+- :test: test_anyGivenLength_side1_given_1_side2_given_0_side3_given_3_should_return_0
+  :line: 100
+  :message: ''
+- :test: test_anyGivenLength_side1_given_1_side2_given_3_side3_given_0_should_return_0
+  :line: 115
+  :message: ''
+- :test: test_anyGivenLength_side1_given_negative_1_side2_given_3_side3_given_2_should_return_0
+  :line: 130
+  :message: ''
+- :test: test_anyGivenLength_side1_given_1_side2_given_negative_3_side3_given_2_should_return_0
+  :line: 145
+  :message: ''
+- :test: test_anyGivenLength_side1_given_1_side2_given_3_side3_given_negative_2_should_return_0
+  :line: 160
+  :message: ''
+- :test: test_isTriangle_side1_is_given_1_side2_given_1_side3_given_3_should_return_0
+  :line: 175
+  :message: ''
+- :test: test_isTriangle_side1_is_given_5_side2_given_1_side3_given_3_should_return_0
+  :line: 190
+  :message: ''
+- :test: test_isTriangle_side1_is_given_5_side2_given_9_side3_given_3_should_return_0
+  :line: 205
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 15
+  :passed: 15
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'Success. Exception for side1 generated. Error Code: 1 '
+- 'Success. Exception for side2 generated. Error Code: 1 '
+- 'Success. Exception for side3 generated. Error Code: 1 '
+- 'Success. Exception for side1 generated due to negative value. Error Code: 1 '
+- 'Success. Exception for side2 generated due to negative value. Error Code: 1 '
+- 'Success. Exception for side3 generated due to negative value. Error Code: 1 '
+- 'Success. Exception due to this is not a triangle. Error code: 2 '
+- 'Success. Exception due to this is not a triangle. Error code: 2 '
+- 'Success. Exception due to this is not a triangle. Error code: 2 '
